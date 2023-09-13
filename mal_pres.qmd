@@ -55,14 +55,6 @@ nocite: '@*'
 
     -   Bygge på tidligere arbeid
 
-<!-- -->
-
--   
-
-    -   
-
--   
-
 -   Second point
 
 ## Checkpoint
@@ -79,11 +71,11 @@ nocite: '@*'
 
 -   Nås ved bruk av checkpoint pakken
 
-    ![Checkpoint serveren](images/checkpointserver.png){width="474"}
+    ![](images/checkpointserver.png){width="474"}
 
 ## Checkpoint pakken
 
--   Lar deg innstallere pakker akkuratt slik de var på en bestemt dato.
+-   Lar deg innstallere pakker akkuratt slik de var på en bestemt dato
 -   Øyeblikksbilde på Checkpoint serveren
 -   Sikrer reproduserbarhet
 
@@ -93,6 +85,8 @@ nocite: '@*'
 
 -   Checkpoint serveren og Checkpoint pakken fungerer som en
     CRAN-tidsmaskin!
+
+-   Kode
 
     ![](images/chekpoint.png){width="539"}
 
