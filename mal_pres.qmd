@@ -37,28 +37,35 @@ For å sikre at ting venter med å bli vist bruk Slide Pause fra Insert
 menyen. Vises som ... i Quarto presentasjonen, men er usynlig i den
 endelige presentasjonen.
 
-## Slide 2
+## Checkpoint
 
--   Hvis en har incremental: true i YAML kan en få en liste til å bli
-    nonincremental ved å benytte en Div (Div... fra Insert menyen)
--   Lag Div-en. Klikk de tre prikkene til høyre. Skriv inn
-    `.nonincremental` for class (`.incremental` hvis en ikke har
-    incremental som default)
+-   Reproduserbarhet av R-pakker
+-   Checkpoint server
+-   Chekpoint pakke
 
-. . .
+## Checkpoint serveren
 
-::: nonincremental
--   First point
+-   Daglige øyeblikksbilder av CRAN-pakkene
 
-    1)  First underpoint
-    2)  Second underpoint
+-   Midnatt (UTC)
 
--   Second point
-:::
+-   Nås ved bruk av checkpoint pakken
 
-## Slide 3
+    ![Checkpoint serveren](images/checkpointserver.png){width="474"}
 
--   Content authored with markdown
--   Output from executable code
+## Checkpoint pakken
+
+-   Lar deg innstallere pakker akkuratt slik de var på en bestemt dato.
+-   Øyeblikksbilde på Checkpoint serveren
+-   Sikrer reproduserbarhet
+
+![](images/checkpointpakken.png){width="356"}
+
+## Checkpoint
+
+-   Checkpoint serveren og Checkpoint pakken fungerer som en
+    CRAN-tidsmaskin!
+
+    ![](images/chekpoint.png){width="539"}
 
 ## Referanser
