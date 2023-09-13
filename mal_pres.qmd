@@ -57,21 +57,28 @@ nocite: '@*'
 
 -   Second point
 
-## Checkpoint
+## Slide 2
 
--   Reproduserbarhet av R-pakker
--   Checkpoint server
--   Chekpoint pakke ´
+-   Hvis en har incremental: true i YAML kan en få en liste til å bli
+    nonincremental ved å benytte en Div (Div... fra Insert menyen)
+-   Lag Div-en. Klikk de tre prikkene til høyre. Skriv inn
+    `.nonincremental` for class (`.incremental` hvis en ikke har
+    incremental som default)
 
-## Checkpoint serveren
+. . .
 
--   Daglige øyeblikksbilder av CRAN-pakkene
+::: nonincremental
+-   First point
 
--   Midnatt (UTC)
+    1)  First underpoint
+    2)  Second underpoint
 
--   Nås ved bruk av checkpoint pakken
+-   Second point
+:::
 
-    ![](images/checkpointserver.png){width="474"}
+```         
+![](images/checkpointserver.png){width="474"}
+```
 
 ## Checkpoint pakken
 
@@ -89,5 +96,10 @@ nocite: '@*'
 -   Kode
 
     ![](images/chekpoint.png){width="539"}
+
+## Slide 3
+
+-   Content authored with markdown
+-   Output from executable code
 
 ## Referanser
