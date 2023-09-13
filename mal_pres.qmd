@@ -1,6 +1,6 @@
 ---
 title: "Mal for presentasjon"
-author: "Elvar Solheim", "Hanna Sundal Bjerkreim"
+author: "Elvar Solheim, Hanna Sundal Bjerkreim"
 format:
   revealjs:
         theme: simple
@@ -33,13 +33,17 @@ nocite: '@*'
 
 . . .
 
-For å sikre at ting venter med å bli vist bruk Slide Pause fra Insert menyen.
-Vises som ... i Quarto presentasjonen, men er usynlig i den endelige presentasjonen.
+For å sikre at ting venter med å bli vist bruk Slide Pause fra Insert
+menyen. Vises som ... i Quarto presentasjonen, men er usynlig i den
+endelige presentasjonen.
 
 ## Slide 2
 
--   Hvis en har incremental: true i YAML kan en få en liste til å bli nonincremental ved å benytte en Div (Div... fra Insert menyen)
--   Lag Div-en. Klikk de tre prikkene til høyre. Skriv inn `.nonincremental` for class (`.incremental` hvis en ikke har incremental som default)
+-   Hvis en har incremental: true i YAML kan en få en liste til å bli
+    nonincremental ved å benytte en Div (Div... fra Insert menyen)
+-   Lag Div-en. Klikk de tre prikkene til høyre. Skriv inn
+    `.nonincremental` for class (`.incremental` hvis en ikke har
+    incremental som default)
 
 . . .
 
