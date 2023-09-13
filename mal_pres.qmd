@@ -20,7 +20,7 @@ editor_options:
 echo: true
 eval: true
 bibliography: reproducibility.bib, pres_HE.bib
-nocite: '@*'
+nocite: 
 ---
 
 ## Innhold
