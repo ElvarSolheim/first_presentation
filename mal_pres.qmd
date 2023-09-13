@@ -1,5 +1,6 @@
 ---
-title: "Mal for presentasjon"
+title: "Hvordan kan MRAN (Microsoft R Aplication Network) og Checkpoint hjelpe oss med
+å oppnå reproduserbarhet?"
 author: "Elvar Solheim, Hanna Sundal Bjerkreim"
 format:
   revealjs:
@@ -22,26 +23,53 @@ bibliography: reproducibility.bib
 nocite: '@*'
 ---
 
-## Slide 1
+## Innhold
 
--   First point
+-   CRAN
+-   MRAN
+-   Chekpoint
+-   Konklusjon
+-   Referanser
 
-    1)  First underpoint
-    2)  Second underpoint
+## CRAN
+
+-   Basesystem
+
+    -   Gir tilgang til pakker brukt i RStudio
+
+    -   Kontinuerlig oppdatering av pakker
+
+-   Utfordringer
+
+    -   Brukere "tvinges" til å bruke nye versjoner av pakker
+
+        -   Disse snakker ikke nødvendigvis med de eksisterende pakkene
+
+    -   Problemer oppstår ved reproduksjon
+
+## MRAN (Microsoft R Aplication Network)
+
+-   Reproduserbarhet:
+
+    -   Robust og pålitelig
+
+    -   Bygge på tidligere arbeid
+
+<!-- -->
+
+-   
+
+    -   
+
+-   
 
 -   Second point
-
-. . .
-
-For å sikre at ting venter med å bli vist bruk Slide Pause fra Insert
-menyen. Vises som ... i Quarto presentasjonen, men er usynlig i den
-endelige presentasjonen.
 
 ## Checkpoint
 
 -   Reproduserbarhet av R-pakker
 -   Checkpoint server
--   Chekpoint pakke
+-   Chekpoint pakke ´
 
 ## Checkpoint serveren
 
