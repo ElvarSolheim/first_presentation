@@ -19,7 +19,7 @@ editor_options:
     chunk_output_type: console
 echo: true
 eval: true
-bibliography: reproducibility.bib
+bibliography: reproducibility.bib, pres_HE.bib
 nocite: '@*'
 ---
 
@@ -77,10 +77,10 @@ nocite: '@*'
 
 ## Checkpoint
 
--   Checkpoint serveren og Checkpoint pakken fungerer som en
-    CRAN-tidsmaskin!
+Checkpoint serveren og Checkpoint pakken fungerer som en
+CRAN-tidsmaskin!
 
-    ![](images/chekpoint.png){width="539"}
+![](images/chekpoint.png){width="648"}
 
 ## Konklusjon
 
