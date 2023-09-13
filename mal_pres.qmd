@@ -19,7 +19,7 @@ editor_options:
     chunk_output_type: console
 echo: true
 eval: true
-bibliography: reproducibility.bib
+bibliography: pres_HE.bib
 nocite: 
 ---
 
@@ -57,7 +57,20 @@ nocite:
 
     -   Bygge på tidligere arbeid
 
--   Second point
+-   Er en "tids-maskin"
+
+    -   Tar øyeblikksbilder av CRAN R-pakker på gitte øyeblikk
+
+        -   Pakken forandrer seg aldri
+
+        -   Er tilgjengelig via daterte linker
+
+    -   Ved hjelp av argumentet "repos" kan man installere den eldre
+        pakken:
+
+    ```{r}
+    #install.packages("ggplot2",repos="https://cran.microsoft.com/snapshot/2017-09-01/")
+    ```
 
 ## Checkpoint serveren
 
@@ -85,5 +98,9 @@ nocite:
 ![](images/chekpoint.png){width="485"}
 
 ## Konklusjon
+
+-   Både MRAN og Checkpoint tar øyeblikksbilder av pakker
+-   MRAN er lagt ned og ikke tilgjengelig lenger
+-   For repoduksjon er både MRAN og Checkpoint gode løsninger
 
 ## Referanser
