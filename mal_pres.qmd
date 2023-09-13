@@ -20,7 +20,7 @@ editor_options:
 echo: true
 eval: true
 bibliography: pres_HE.bib
-nocite: 
+nocite: '@*'
 ---
 
 ## Innhold
@@ -74,28 +74,37 @@ nocite:
 
 ## Checkpoint serveren
 
--   Checkpoint brukes for å sikre reproduserbarhet av R-pakker
--   Daglige øyeblikksbilder
+-   Checkpoint for å sikre reproduserbarhet av CRAN-pakker
+-   Daglige snapshots av CRAN-pakkene
 -   Midnatt (UTC)
--   Øyeblikksbildene nås ved hjelp av en Checkpoint pakke
+-   Snapshots nås ved hjelp av en Checkpoint pakke
 
-![](images/checkpointserver-02.png){width="488"}
+![](images/checkpointserver-02.png){fig-align="left" width="488"}
 
 ## Checkpoint pakken
 
--   Lar deg innstallere pakker akkuratt slik de var på en bestemt dato
--   Øyeblikksbilde på Checkpoint serveren
--   Checkpoint funksjonen
--   Sikrer reproduserbarhet
+-   Lar deg innstallere R-pakker nøyaktig slik de var på en bestemt dato
 
-![](images/checkpointpakken.png){width="356"}
+    -   Snapshot fra Checkpoint serveren
+
+    -   Konfiguerer R til å bruke disse pakkene
+
+-   Checkpoint funksjonen
+
+    ```{r}
+    # checkponit("2017-06-14")
+    ```
+
+![](images/checkpointpakken.png){fig-align="left" width="437"}
 
 ## Checkpoint = CRAN-tidsmaskin
 
+-   Unngår pakkeoppdateringer som kan påvirke resultatene -\>
+    reproduserbarhet
 -   Checkpoint serveren og Checkpoint pakken fungerer som en
     CRAN-tidsmaskin!
 
-![](images/chekpoint.png){width="485"}
+![](images/chekpoint.png){fig-align="left" width="485"}
 
 ## Konklusjon
 
