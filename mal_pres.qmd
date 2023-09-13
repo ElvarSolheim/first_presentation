@@ -61,6 +61,12 @@ nocite: '@*'
 
 ## Checkpoint serveren
 
+-   Daglige øyeblikksbilder
+-   Midnatt (UTC)
+-   Kan deretter nås ved hjelp av Checkpoint pakken
+
+![](images/checkpointserver-02.png){width="488"}
+
 ## Checkpoint pakken
 
 -   Lar deg innstallere pakker akkuratt slik de var på en bestemt dato
@@ -73,8 +79,6 @@ nocite: '@*'
 
 -   Checkpoint serveren og Checkpoint pakken fungerer som en
     CRAN-tidsmaskin!
-
--   Kode
 
     ![](images/chekpoint.png){width="539"}
 
