@@ -19,7 +19,7 @@ editor_options:
     chunk_output_type: console
 echo: true
 eval: true
-bibliography: reproducibility.bib, pres_HE.bib
+bibliography: reproducibility.bib
 nocite: 
 ---
 
@@ -27,9 +27,9 @@ nocite:
 
 -   CRAN
 -   MRAN
--   Chekpoint Serveren
+-   Chekpoint serveren
 -   Chekpoint pakken
--   Chekpoint
+-   Chekpoint = CRAN-tidsmaskin
 -   Konklusjon
 -   Referanser
 
@@ -61,9 +61,10 @@ nocite:
 
 ## Checkpoint serveren
 
+-   Checkpoint brukes for å sikre reproduserbarhet av R-pakker
 -   Daglige øyeblikksbilder
 -   Midnatt (UTC)
--   Kan deretter nås ved hjelp av Checkpoint pakken
+-   Øyeblikksbildene nås ved hjelp av en Checkpoint pakke
 
 ![](images/checkpointserver-02.png){width="488"}
 
@@ -71,16 +72,17 @@ nocite:
 
 -   Lar deg innstallere pakker akkuratt slik de var på en bestemt dato
 -   Øyeblikksbilde på Checkpoint serveren
+-   Checkpoint funksjonen
 -   Sikrer reproduserbarhet
 
 ![](images/checkpointpakken.png){width="356"}
 
-## Checkpoint
+## Checkpoint = CRAN-tidsmaskin
 
-Checkpoint serveren og Checkpoint pakken fungerer som en
-CRAN-tidsmaskin!
+-   Checkpoint serveren og Checkpoint pakken fungerer som en
+    CRAN-tidsmaskin!
 
-![](images/chekpoint.png){width="648"}
+![](images/chekpoint.png){width="485"}
 
 ## Konklusjon
 
